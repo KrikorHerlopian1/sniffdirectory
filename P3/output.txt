@@ -1,0 +1,148 @@
+
+---------------------------------------------------------------
+	Krikor Herlopian and Ricardo Aliwalas
+	CSCI 6647
+	Fri Oct  9 2020	18:50:48
+---------------------------------------------------------------
+Verbose?		No
+Help?			No
+Case sensitive?		Yes
+Recursive		No
+Output file name:	output.txt
+Directory:		TestDir
+
+Search string words: 
+			Word 0: hello
+			Word 1: world
+---------------------------------------------------------------
+I-Node 9831575 links 2
+	Words found: hello world
+	File dir:    /home/ra359/doc/unh/CSCI-6647/assignments/program3-sniffing_a_directory/P3/TestDir
+	File name:   File1.txt
+
+	Words found: hello world
+	File dir:    /home/ra359/doc/unh/CSCI-6647/assignments/program3-sniffing_a_directory/P3/TestDir
+	File name:   hardlink_to_File1.txt
+
+I-Node 9831576 links 1
+	Words found: world
+	File dir:    /home/ra359/doc/unh/CSCI-6647/assignments/program3-sniffing_a_directory/P3/TestDir
+	File name:   File2.txt
+
+I-Node 9831577 links 1
+	Words found: hello world
+	File dir:    /home/ra359/doc/unh/CSCI-6647/assignments/program3-sniffing_a_directory/P3/TestDir
+	File name:   File3.txt
+
+
+---------------------------------------------------------------
+	Krikor Herlopian and Ricardo Aliwalas
+	CSCI 6647
+	Fri Oct  9 2020	18:50:58
+---------------------------------------------------------------
+Verbose?		No
+Help?			No
+Case sensitive?		Yes
+Recursive		No
+Output file name:	output.txt
+Directory:		TestDir
+
+Search string words: 
+			Word 0: dog
+---------------------------------------------------------------
+I-Node 9831576 links 1
+	Words found: DOG
+	File dir:    /home/ra359/doc/unh/CSCI-6647/assignments/program3-sniffing_a_directory/P3/TestDir
+	File name:   File2.txt
+
+
+---------------------------------------------------------------
+	Krikor Herlopian and Ricardo Aliwalas
+	CSCI 6647
+	Sat Oct 17 2020	20:25:17
+---------------------------------------------------------------
+Verbose?		No
+Help?			No
+Case sensitive?		Yes
+Recursive		No
+Output file name:	output.txt
+Directory:		./TestDir
+
+Search string words: 
+			Word 0: hello
+---------------------------------------------------------------
+I-Node 9831656 links 1
+	Words found: hello
+	File dir:    /home/ra359/doc/unh/CSCI-6647/assignments/program3-sniffing_a_directory/P3-Krikor-Ricardo/TestDir/
+	File name:   File3.txt
+
+I-Node 9831660 links 1
+	Words found: hello
+	File dir:    /home/ra359/doc/unh/CSCI-6647/assignments/program3-sniffing_a_directory/P3-Krikor-Ricardo/TestDir/
+	File name:   File1.txt
+
+I-Node 9831664 links 1
+	Words found: hello
+	File dir:    /home/ra359/doc/unh/CSCI-6647/assignments/program3-sniffing_a_directory/P3-Krikor-Ricardo/TestDir/
+	File name:   symlink_to_File1.txt
+
+I-Node 9832019 links 1
+	Words found: hello
+	File dir:    /home/ra359/doc/unh/CSCI-6647/assignments/program3-sniffing_a_directory/P3-Krikor-Ricardo/TestDir/
+	File name:   hardlink_to_File1.txt
+
+
+---------------------------------------------------------------
+	Krikor Herlopian and Ricardo Aliwalas
+	CSCI 6647
+	Sat Oct 17 2020	20:25:35
+---------------------------------------------------------------
+Verbose?		No
+Help?			No
+Case sensitive?		Yes
+Recursive		No
+Output file name:	output.txt
+Directory:		./TestDdsdsfsdfsdfdir
+
+Search string words: 
+			Word 0: hello
+---------------------------------------------------------------
+Invalid directory, exitting...
+
+
+---------------------------------------------------------------
+	Krikor Herlopian and Ricardo Aliwalas
+	CSCI 6647
+	Sat Oct 17 2020	20:26:20
+---------------------------------------------------------------
+Verbose?		No
+Help?			No
+Case sensitive?		Yes
+Recursive		No
+Output file name:	output.txt
+Directory:		/home/ra359/doc/unh/CSCI-6647/assignments
+
+Search string words: 
+			Word 0: hello
+---------------------------------------------------------------
+
+---------------------------------------------------------------
+	Krikor Herlopian and Ricardo Aliwalas
+	CSCI 6647
+	Sat Oct 17 2020	20:26:38
+---------------------------------------------------------------
+Verbose?		No
+Help?			No
+Case sensitive?		Yes
+Recursive		No
+Output file name:	output.txt
+Directory:		/home/ra359/doc/unh/CSCI-6647/assignments/program4-directory-tree/P4-Krikor-and-Ricardo/test
+
+Search string words: 
+			Word 0: hello
+---------------------------------------------------------------
+I-Node 9044650 links 1
+	Words found: hello
+	File dir:    /home/ra359/doc/unh/CSCI-6647/assignments/program4-directory-tree/P4-Krikor-and-Ricardo/test/
+	File name:   file1
+
